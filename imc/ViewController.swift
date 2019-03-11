@@ -59,6 +59,7 @@ class ViewController: UIViewController {
                 image = "obesidade"
         }
             
+            // out
             lbApresentaIMC.text = "\(imc) : \(result)"
             ivMostraImg.image = UIImage(named: image)
             viResults.isHidden = false
